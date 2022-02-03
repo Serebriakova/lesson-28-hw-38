@@ -115,8 +115,8 @@ const view = {
     innerContent += `<div class="taskDescription">${description}</div>`;
     innerContent += `<hr>`;
     innerContent += `<div class="form-check">`;
-    innerContent += `<label class="form-check-label" for="flexCheckDefault">`;
-    innerContent += `<input data-item-id="${itemId}" class="form-check-input completedCheckbox" type="checkbox" value="" id="flexCheckDefault">`;
+    innerContent += `<label class="form-check-label" for="flexCheckDefault-${itemId}">`;
+    innerContent += `<input data-item-id="${itemId}" class="form-check-input completedCheckbox" type="checkbox" value="" id="flexCheckDefault-${itemId}">`;
 
     innerContent += `Completed?`;
     innerContent += `</label>`;
